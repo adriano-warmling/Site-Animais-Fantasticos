@@ -5,11 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animais Fantásticos</title>
-    <link rel="stylesheet" href="css.style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="#animais">Animais</a></li>
             <li><a href="#faq">FAQ</a></li>
@@ -19,8 +20,8 @@
     </nav>
 
     <section class="grid-section animais" id="animais">
-        <h1 class="Animais Fantásticos"></h1>
-        <ul>
+        <h1 class="titulo">Animais Fantásticos</h1>
+        <ul class="animais-lista">
             <li>
                 <img src="img/imagem1.jpg" alt="" />
             </li>
@@ -161,41 +162,43 @@
                     e peluda.
                 </p>
             </section>
+        </div>
+    </section>
 
-            <Section class="grid-section faq" id="faq">
-                <h1>FAQ</h1>
-                <dl>
-                    <dt>Qual a idade dos animais?</dt>
-                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus harum eius,
-                        voluptas repellendus ad.</dd>
-                    <dt>Eles são fantasticos?</dt>
-                    <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, eaque?</dd>
-                    <dt>Qual a diferença?</dt>
-                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ad.</dd>
-                    <dt>Como proteger?</dt>
-                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, obcaecati!</dd>
-                </dl>
-            </Section>
+    <Section class="grid-section faq " id="faq">
+        <h1 class="titulo">FAQ</h1>
+        <dl>
+            <dt>Qual a idade dos animais?</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus harum eius,
+                voluptas repellendus ad.</dd>
+            <dt>Eles são fantasticos?</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, eaque?</dd>
+            <dt>Qual a diferença?</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ad.</dd>
+            <dt>Como proteger?</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, obcaecati!</dd>
+        </dl>
+    </Section>
 
-            <section class="grid-section contato" id="contato">
-                <h1>contato</h1>
-                <div class="mapa">
-                    <img src="img/mapa.png" alt="map-location">
-                </div>
-                <ul class="dados">
-                    <li>email@email.com</li>
-                    <li>+55 (48) 99999-9999</li>
-                    <li>Rua das Mocas, Nº 142</li>
-                    <li>Florianópolis - SC</li>
-                </ul>
-            </section>
+    <section class="grid-section contato" id="contato">
+        <h1 class="titulo">contato</h1>
+        <div class="mapa">
+            <img src="img/mapa.png" alt="map-location">
+        </div>
+        <ul class="dados">
+            <li>email@email.com</li>
+            <li>+55 (48) 99999-9999</li>
+            <li>Rua das Mocas, Nº 142</li>
+            <li>Florianópolis - SC</li>
+        </ul>
+    </section>
 
-            <footer class="copy">
-                <p>Todos os diretos reservados</p>
-            </footer>
+    <footer class="copy">
+        <p>Todos os diretos reservados</p>
+    </footer>
 
 
-            <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
